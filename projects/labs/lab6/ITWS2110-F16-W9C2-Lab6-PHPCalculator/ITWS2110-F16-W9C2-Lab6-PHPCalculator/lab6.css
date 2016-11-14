@@ -1,0 +1,28 @@
+input[type=submit] {
+	width: 110px;
+}
+
+.inputs {
+	width: 40%;
+}
+
+.inputText, .inputSubmit {
+	width: 250px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+pre, form {
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+pre {
+	font-size: 125%;
+	background-color: #eeeeee;
+}
+
+body {
+	background: #222222;
+}

@@ -1,0 +1,86 @@
+body {  /*Setting up the font and standard text size for the doc*/
+  margin: 0;
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 100%;
+}
+
+.cover img {  /*universal sizing for album images*/
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.track {  /*requirement*/
+  font-variant: small-caps;
+}
+
+.artist p { /*requirement*/
+  font-weight: bold;
+  font-size: 120%;
+}
+
+.album p {  /*requirement*/
+  font-style: italic;
+}
+
+.release p, .genre p {  /*requirement*/
+  font-size: 90%;
+}
+
+#favorite p { /*requirement*/
+  color: #00FF00;
+}
+
+ul.songEntry{ /*basic attributes for each song entry <ul>*/
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  min-width: 600px;
+  background-color: #dddddd;
+}
+
+.songEntry li { /*basic attributes for each <li> song detail; each set to %width*/
+  float: left;  /*for symmetry*/
+  background-color: #AAAAAA;
+  margin: 0;
+  padding: 0;
+  width: 16.66%;
+  min-width: 100px;
+  height: 100px;
+}
+
+.songEntry li p { /*text attributes for each <li>*/
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+li.track p, li.artist p, li.album p, li.release p, li.genre p {
+  margin-top: 40px;
+}
+
+#labelBar {               /*unique attributes for the title bar formatting*/
+  font-weight: bold;
+}
+
+#labelBar li {
+  height: 50px;
+  background-color: #005580;
+}
+
+#labelBar li p {
+  margin-top: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+#eol li{  /*requirement*/
+  height: 20px;
+  width: 100%;
+  background-color: #005580;
+  color: white;
+  font-style: italic;
+  font-size: 70%;
+}

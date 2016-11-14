@@ -1,0 +1,95 @@
+body {  /*Setting up the font and standard text size for the doc*/
+  margin: 0;
+  font-family: "Verdana", Geneva, sans-serif;
+  font-size: 100%;
+  background-color: #777
+}
+
+ul {  /*master attributes for all ul's*/
+  list-style-type: none;
+  background-color: #dddddd;
+  padding: 1px;
+  margin: 0;
+}
+
+.section {  /*attributes for each basic section in the resume. adapts to page size and centered*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  min-width: 600px;
+  border-style: solid;
+  border-color: #777;
+}
+
+#titleBlock { /*style for picture/details section. Set to display in center of page*/
+  background-color: #3563ad;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  min-width: 600px;
+  border-style: solid;
+  border-color: #777;
+}
+
+#titleBlock ul {
+  background-color: #3563ad;
+}
+
+.titleSide {  /*displays the profile img and contact info side-by-side*/
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.titleSide p, .titleSide a {
+  margin: 0;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.titleSide img {
+  margin: 0;
+  vertical-align: text-bottom;
+}
+
+.SecTitle { /*headings for each section*/
+  font-weight: bold;
+  font-size: 120%;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.entryTitle {
+  font-size: 110%;
+  margin-left: 10px;
+}
+
+.entryDetail {
+  margin: 0;
+  margin-left: 30px;
+}
+
+.location {
+  font-style: italic;
+}
+
+.skills p {
+  margin: 2px;
+  display: inline-block;
+}
+
+.skillTitle {
+  font-weight: bold;
+}

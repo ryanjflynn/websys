@@ -1,0 +1,7 @@
+Notes:
+
+	Make sure that you can call INSERT twice:
+		Need to make sure that a primary key is not being added more than once.
+		Try using auto_increment and start RIN's at 0 and go up 1,2,3...
+			Need to make sure that these values are padded with zeros when they are 
+			sent to the front end. 

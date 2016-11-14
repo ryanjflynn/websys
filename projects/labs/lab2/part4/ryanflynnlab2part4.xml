@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="ryanflynnlab2part4.css"?>
+
+
+<SONGLIST xmlns:html="http://www.w3.org/1999/xhtml">
+
+  <song>
+    <name>1998</name>
+    <artist>Chet Faker</artist>
+    <album><html:a href="http://www.allmusic.com/album/built-on-glass-mw0002620796">Built on Glass</html:a></album>
+    <release>2014</release>
+    <genre>Electronic</genre>
+    <cover><html:img src="builtonglass.jpg" alt="Built on Glass album art"></html:img></cover>
+  </song>
+
+  <song>
+    <name>Trillogy</name>
+    <artist>Lettuce</artist>
+    <album><html:a href="http://www.allmusic.com/album/crush-mw0002887199">Crush</html:a></album>
+    <release>2015</release>
+    <genre>Funk</genre>
+    <cover><html:img src="crush.jpg" alt="Crush album art"></html:img></cover>
+  </song>
+
+  <song>
+    <name>Loud Places</name>
+    <artist>Jamie XX</artist>
+    <album><html:a href="http://www.allmusic.com/album/in-colour-mw0002841555">In Colour</html:a></album>
+    <release>2015</release>
+    <genre>Electronic</genre>
+    <cover><html:img src="incolour.jpg" alt="In Colour album art"></html:img></cover>
+  </song>
+
+  <song>
+    <name>Like It Is</name>
+    <artist>Vince Staples</artist>
+    <album><html:a href="http://www.allmusic.com/album/summertime-06-mw0002850884">Summertime '06</html:a>'</album>
+    <release>2015</release>
+    <genre>Rap</genre>
+    <cover><html:img src="summertime06.jpg" alt="Summertime '06 album art"></html:img></cover>
+  </song>
+
+  <song>
+    <name>Above the Clouds</name>
+    <artist>Gang Starr</artist>
+    <album><html:a href="http://www.allmusic.com/album/moment-of-truth-mw0000025923">Moment of Truth</html:a></album>
+    <release>1998</release>
+    <genre>Rap</genre>
+    <cover><html:img src="momentoftruth.jpg" alt="Moment of Truth album art"></html:img></cover>
+  </song>
+
+  <song>
+    <name>Way Down</name>
+    <artist>NASA</artist>
+    <album><html:a href="http://www.allmusic.com/album/the-spirit-of-apollo-mw0000807211">The Spirit of Apollo</html:a></album>
+    <release>2009</release>
+    <genre>Pop Rock</genre>
+    <cover><html:img src="thespiritofapollo.jpg" alt="The Spirit of Apollo album art"></html:img></cover>
+  </song>
+
+</SONGLIST>

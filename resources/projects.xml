@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PROJECTS>
+
+  <project>
+    <name>Lab 1</name>
+    <location>\projects\labs\lab1</location>
+    <description>Creating virtual host and using XAMPP</description>
+  </project>
+
+  <project>
+    <name>Lab 2</name>
+    <location>\projects\labs\lab2</location>
+    <description>Applying CSS to HTML and XML documents</description>
+  </project>
+
+  <project>
+    <name>Lab 3</name>
+    <location>\projects\labs\lab3</location>
+    <description>Writing JavaScript functions to traverse the DOM</description>
+  </project>
+
+  <project>
+    <name>Lab 4</name>
+    <location>\projects\labs\lab4</location>
+    <description>Using AJAX and JSON to load pages dynamically</description>
+  </project>
+
+  <project>
+    <name>Lab 5</name>
+    <location>\projects\labs\lab5</location>
+    <description>Front end Optimization</description>
+  </project>
+
+  <project>
+    <name>Lab 6</name>
+    <location>\projects\labs\lab6</location>
+    <description>PHP</description>
+  </project>
+
+  <project>
+    <name>Lab 7</name>
+    <location>\projects\labs\lab7</location>
+    <description>Building off of Quiz1 (site improvements)</description>
+  </project>
+
+  <project>
+    <name>Lab 8</name>
+    <location>\projects\labs\lab8</location>
+    <description>Not yet completed</description>
+  </project>
+
+  <project>
+    <name>Lab 9</name>
+    <location>\projects\labs\lab9</location>
+    <description>Not yet completed</description>
+  </project>
+
+  <project>
+    <name>Lab 10</name>
+    <location>\projects\labs\lab10</location>
+    <description>Not yet completed</description>
+  </project>
+
+  <project>
+    <name>Homework 1</name>
+    <location>\projects\homeworks\homework1</location>
+    <description>Building and styling an HMTL online Resume</description>
+  </project>
+
+  <project>
+    <name>Homework 2</name>
+    <location>\projects\homeworks\homework2</location>
+    <description>Creating a JavaScript Hex game with a group</description>
+  </project>
+
+  <project>
+    <name>Workspace</name>
+    <location>\projects\workspace</location>
+    <description>Extra hosted folder</description>
+  </project>
+
+
+
+</PROJECTS>

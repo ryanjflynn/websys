@@ -1,0 +1,39 @@
+SONGLIST {
+    background-color: #cccccc;
+    width: 100%;
+    font-family: "Verdana", Geneva, sans-serif;
+    font-size: 100%;
+}
+song {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin-left: 10px;
+    border-color: black;
+    border-bottom-style: solid;
+
+}
+name {
+    display: block;
+    font-size: 100%;
+}
+artist {
+    display: block;
+    color: #0000ff;
+    font-size: 120%;
+}
+album {
+  font-style: italic;
+}
+album, release, genre, cover {
+    display: block;
+    color: #000000;
+    margin-left: 20px;;
+}
+
+cover img {
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-width: 1px;
+}

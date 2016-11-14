@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<SONGLIST>
+
+  <song>
+    <track>1998</track>
+    <artist>Chet Faker</artist>
+    <album>Built on Glass</album>
+    <release>2014</release>
+    <genre>Electronic</genre>
+    <cover>builtonglass.jpg</cover>
+  </song>
+
+  <song>
+    <track>Trillogy</track>
+    <artist>Lettuce</artist>
+    <album>Crush</album>
+    <release>2015</release>
+    <genre>Funk</genre>
+    <cover>crush.jpg</cover>
+  </song>
+
+  <song>
+    <track>Loud Places</track>
+    <artist>Jamie XX</artist>
+    <album>In Colour</album>
+    <release>2015</release>
+    <genre>Electronic</genre>
+    <cover>incolour.jpg</cover>
+  </song>
+
+  <song>
+    <track>Like It Is</track>
+    <artist>Vince Staples</artist>
+    <album>Summertime '06'</album>
+    <release>2015</release>
+    <genre>Rap</genre>
+    <cover>summertime06.jpg</cover>
+  </song>
+
+  <song>
+    <track>Above the Clouds</track>
+    <artist>Gang Starr</artist>
+    <album>Moment of Truth</album>
+    <release>1998</release>
+    <genre>Rap</genre>
+    <cover>momentoftruth.jpg</cover>
+  </song>
+
+  <song>
+    <track>Way Down</track>
+    <artist>NASA</artist>
+    <album>The Spirit of Apollo</album>
+    <release>2009</release>
+    <genre>Pop Rock</genre>
+    <cover>thespiritofapollo.jpg</cover>
+  </song>
+  
+</SONGLIST>

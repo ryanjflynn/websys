@@ -1,0 +1,60 @@
+{
+  "songs" : [
+    {
+      "track" : "1998",
+      "artist" : "Chet Faker",
+      "album" : "Built on Glass",
+      "release" : "2014",
+      "genre" : "Electronic",
+      "albumURL" : "http://www.allmusic.com/album/built-on-glass-mw0002620796",
+      "albumArtURL" : "http://nbhap.com/wordpress/wp-content/uploads//2014/04/chet-faker-album-cover.jpg"
+    },
+    {
+      "track" : "Trillogy",
+      "artist" : "Lettuce",
+      "album" : "Crush",
+      "release" : "2015",
+      "genre" : "Funk",
+      "albumURL" : "http://www.allmusic.com/album/crush-mw0002887199",
+      "albumArtURL" : "https://cdn.zumic.com/wp-content/uploads/2015/10/lettuce-crush-album-cover-art-500x500.jpg"
+    },
+    {
+      "track" : "Loud Places",
+      "artist" : "Jamie XX",
+      "album" : "In Colour",
+      "release" : "2015",
+      "genre" : "Electronic",
+      "albumURL" : "http://www.allmusic.com/album/in-colour-mw0002841555",
+      "albumArtURL" : "http://factmag-images.s3.amazonaws.com/wp-content/uploads/2015/03/unnamed6.jpg"
+    },
+    {
+      "track" : "Like It Is",
+      "artist" : "Vince Staples",
+      "album" : "Summertime '06'",
+      "release" : "2015",
+      "genre" : "Rap",
+      "albumURL" : "http://www.allmusic.com/album/summertime-06-mw0002850884",
+      "albumArtURL" : "https://s3.amazonaws.com/hiphopdx-production/2015/05/Vince-Staples-summertime-06-Album-Cover.jpg"
+    },
+    {
+      "track" : "Above the Clouds",
+      "artist" : "Gang Starr",
+      "album" : "Moment of Truth",
+      "release" : "1998",
+      "genre" : "Rap",
+      "albumURL" : "http://www.allmusic.com/album/moment-of-truth-mw0000025923",
+      "albumArtURL" : "http://www.hiphopcertified.com/hhc/wp-content/uploads/2014/01/GangStarr-moment-of-truth.jpg"
+    },
+    {
+      "track" : "Way Down",
+      "artist" : "NASA",
+      "album" : "The Spirit of Apollo",
+      "release" : "2009",
+      "genre" : "Pop Rock",
+      "albumURL" : "http://www.allmusic.com/album/the-spirit-of-apollo-mw0000807211",
+      "albumArtURL" : "http://www.killahbeez.com/wordpress/wp-content/uploads/2009/02/61ufv37kfxl__ss500_.jpg"
+    }
+
+  ]
+
+}
