@@ -2,13 +2,13 @@
 function iterDom(active, layer) {
 
   //check to see if the node is an Element
-  if (active.nodeType == 1) {
+  if (active.nodeType == 1 && active.id != "sidebar-wrapper") {
 
     //add event listener to the element which calls bubble function (element as param)
     active.addEventListener("click", function() {bubble(active);});
 
     //for all divs add event listeners for mousover and mouseout (refer to functions)
-    if (active.tagName == 'DIV') {
+    if (active.tagName == 'DIV' && active.id != "wrapper" && active.id != "page-content-wrapper") {
       active.addEventListener("mouseover", function() {mouseover(active);});
       active.addEventListener("mouseout", function() {mouseout(active);});
     }
