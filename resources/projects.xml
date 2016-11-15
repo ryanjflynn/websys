@@ -16,7 +16,7 @@
 
   <project>
     <name>Lab 3</name>
-    <location>\projects\labs\lab3</location>
+    <location>\projects\labs\lab3\part3\lab3.html</location>
     <description>Writing JavaScript functions to traverse the DOM</description>
   </project>
 
