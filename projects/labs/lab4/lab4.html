@@ -3,9 +3,23 @@
   <head>
      <title>Lab 4 AJAX</title>
      <link rel="stylesheet" type="text/css" href="lab4.css">
+     <link href="/resources/bootstrap_menu/css/bootstrap.min.css" rel="stylesheet">
+     <link href="/resources/bootstrap_menu/css/simple-sidebar.css" rel="stylesheet">
      <script src="jquery-3.1.1.min.js"></script>
   </head>
   <body>
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li><a href="/index.html">HOME</a></li>
+          <!--Menu Items fill in here-->
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <div id="page-content-wrapper">
     <ul class="songEntry" id="labelBar">
       <li id="track"><p>TRACK</p></li>
       <li id="artist"><p>ARTIST</p></li>
@@ -19,10 +33,11 @@
       <a id="site" href="#"><img id="coverart" src="button.png" alt="button.png"/></a>
       <p id="label">Click Button to Load Songs</p>
     </div>
-
-
-
-
+    </div>
+    </div>
+    <script src="/resources/bootstrap_menu/js/jquery.js"></script>
+    <script src="/resources/bootstrap_menu/js/bootstrap.min.js"></script>
+    <script src="/resources/script.js"></script>
     <script src="lab4.js"></script>
   </body>
 </html>

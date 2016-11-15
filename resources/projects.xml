@@ -22,7 +22,7 @@
 
   <project>
     <name>Lab 4</name>
-    <location>\projects\labs\lab4</location>
+    <location>\projects\labs\lab4\lab4.html</location>
     <description>Using AJAX and JSON to load pages dynamically</description>
   </project>
 
