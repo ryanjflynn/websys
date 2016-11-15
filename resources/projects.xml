@@ -28,13 +28,13 @@
 
   <project>
     <name>Lab 5</name>
-    <location>\projects\labs\lab5</location>
+    <location>\projects\labs\lab5\ITWS2110-F16-W8C2-lab5-FEPerformance\lab5.html</location>
     <description>Front end Optimization</description>
   </project>
 
   <project>
     <name>Lab 6</name>
-    <location>\projects\labs\lab6</location>
+    <location>\projects\labs\lab6\ITWS2110-F16-W9C2-Lab6-PHPCalculator\ITWS2110-F16-W9C2-Lab6-PHPCalculator\lab6.php</location>
     <description>PHP</description>
   </project>
 
