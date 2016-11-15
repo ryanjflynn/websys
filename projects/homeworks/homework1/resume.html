@@ -4,103 +4,122 @@
     <meta charset="UTF-8">
     <title>Resume: RJF</title>
     <link rel="stylesheet" type="text/css" href="resume_css.css">
+    <link href="/resources/bootstrap_menu/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/resources/bootstrap_menu/css/simple-sidebar.css" rel="stylesheet">
   </head>
 
   <body>
 
-    <ul id="titleBlock"> <!--block for profile image and contact information-->
-      <li class="titleSide"><img src="profile.jpg" alt="profile_image" height="150" width="150"></li>
-      <li class="titleSide">
-        <ul class="vcard"> <!--Setting up hCard-->
-          <li><p class="fn">Ryan J Flynn</p></li>
-          <li><p><span class="street-address">33 Bow Run</span>, <span class="locality">Saunderstown</span>,
-            <span class="region">RI</span> <span class="postal-code">02874</span></p></li>
-          <li><p class="tel">401-824-9420</p></li>
-          <li><a href="mailto:rjf.flynn@gmail.com" class="email">rjf.flynn@gmail.com</a></li>
-        </ul>
-      </li>
-    </ul>
+    <div id="wrapper">
 
-    <ul class="section">
-      <li><p class="SecTitle">Intro:</p></li>
-      <li><p>In 2019 I will graduate from Rensselaer Polytechnic Institute with
-             a degree in Information Technology and Web Science. My academic studies
-             and experiences so far have enabled me to develop my problem solving
-             skills and technical knowledge in the areas of web development and
-             object oriented programming</p></li>
-    </ul>
+      <!-- Sidebar -->
+      <div id="sidebar-wrapper">
+          <ul class="sidebar-nav">
+            <li><a href="/index.html">HOME</a></li>
+            <!--Menu Items fill in here-->
+          </ul>
+      </div>
+      <!-- /#sidebar-wrapper -->
 
-    <ul class="section">
-      <li><p class="SecTitle">Education:</p></li>
-      <li>
-        <ul>
-          <li><a class="entryTitle" href="http://www.narragansett.k12.ri.us/nhs/">Narragansett High School</a></li>
-          <li><p class="entryDetail location">Narragansett, Rhode Island</p></li>
-          <li><p class="entryDetail">Diploma awarded in June 2015</p></li>
-          <li><p class="entryDetail">Salutatorian</p></li>
+      <!--Page content goes inside this DIV-->
+      <div id="page-content-wrapper">
+        <ul id="titleBlock"> <!--block for profile image and contact information-->
+          <li class="titleSide"><img src="profile.jpg" alt="profile_image" height="150" width="150"></li>
+          <li class="titleSide">
+            <ul class="vcard"> <!--Setting up hCard-->
+              <li><p class="fn">Ryan J Flynn</p></li>
+              <li><p><span class="street-address">33 Bow Run</span>, <span class="locality">Saunderstown</span>,
+                <span class="region">RI</span> <span class="postal-code">02874</span></p></li>
+              <li><p class="tel">401-824-9420</p></li>
+              <li><a href="mailto:rjf.flynn@gmail.com" class="email">rjf.flynn@gmail.com</a></li>
+            </ul>
+          </li>
         </ul>
-      </li>
-      <li>
-        <ul>
-          <li><a class="entryTitle" href="http://rpi.edu/">Rensselaer Polytechnic Institute</a></li>
-          <li><p class="entryDetail location">Troy, New York</p></li>
-          <li><p class="entryDetail">Pursuing a B.S. in Information Technology and Web Science</p></li>
-          <li><p class="entryDetail">Cumulative GPA: 3.83/4.00</p></li>
-          <li><p class="entryDetail">Expected graduation: Spring 2019</p></li>
-        </ul>
-      </li>
-    </ul>
 
-    <ul class="section">
-      <li><p class="SecTitle">Work Experience:</p></li>
-      <li>
-        <ul>
-          <li><a class="entryTitle" href="http://www.thielsch.com/">Thielsch Engineering</a></li>
-          <li><p class="entryDetail location">Cranston, Rhode Island</p></li>
-          <li><p class="entryDetail">Summer Laboratory Assistant in CTS/Soil Mechanics Laboratory</p></li>
-          <li><p class="entryDetail">June 2014 - August 2016</p></li>
-          <li><p class="entryDetail">Prepared, tested, and collected data from soil samples for moisture
-                 content, gradation, modified compaction, and hydrometer analyses.</p></li>
+        <ul class="section">
+          <li><p class="SecTitle">Intro:</p></li>
+          <li><p>In 2019 I will graduate from Rensselaer Polytechnic Institute with
+                 a degree in Information Technology and Web Science. My academic studies
+                 and experiences so far have enabled me to develop my problem solving
+                 skills and technical knowledge in the areas of web development and
+                 object oriented programming</p></li>
         </ul>
-      </li>
-      <li>
-        <ul>
-          <li><a class="entryTitle" href="http://www.jonnycakecenter.org/">Jonnycake Center</a></li>
-          <li><p class="entryDetail location">Peace Dale, Rhode Island</p></li>
-          <li><p class="entryDetail">Teen Jonnycake food pantry volunteer</p></li>
-          <li><p class="entryDetail">September 2012 - September 2014</p></li>
-          <li><p class="entryDetail">Sorted, shelved, and distributed donations at emergency food pantry.
-                 Prepared and supervised festival events and booths.</p></li>
-        </ul>
-      </li>
-      <li>
-        <ul>
-          <li><a class="entryTitle" href="https://www.facebook.com/Forest-Lakes-Preservation-Association-FLPA-121889201171780/">
-                Forest Lakes Preservation Association</a></li>
-          <li><p class="entryDetail location">Saunderstown, Rhode Island</p></li>
-          <li><p class="entryDetail">FLPA member volunteer</p></li>
-          <li><p class="entryDetail">2010-2016</p></li>
-          <li><p class="entryDetail">Provided volunteer assistance in community duties including beach cleanups
-                  and dock maintenance.</p></li>
-        </ul>
-      </li>
-    </ul>
 
-    <ul class="section">
-      <li><p class="SecTitle">Skills:</p></li>
-      <li>
-        <ul class="skills">
-          <li><p class="skillTitle">Familiar Operating Systems: </p>  <p>Windows, Android, iOS</p></li>
-          <li><p class="skillTitle">Web Design: </p>  <p>Experience with HTML, CSS, JavaScript, jQuery, AJAX</p></li>
-          <li><p class="skillTitle">Programming: </p>  <p>Experience with Python, C, C++</p></li>
-          <li><p class="skillTitle">Applications: </p>  <p>Microsoft Office, Google Chrome</p></li>
-          <li><p class="skillTitle">Digital Audio:</p>  <p>Image-Line FL Studio, Propellerhead Reason 5</p></li>
-          <li><p class="skillTitle">Music:</p>  <p>4 years experience alto saxophone</p></li>
-          <li><p class="skillTitle">Language: </p>  <p>3 years high school Spanish</p></li>
-          <li><p class="skillTitle">Soft Skills: </p>  <p>Strong work ethic, adaptability</p></li>
+        <ul class="section">
+          <li><p class="SecTitle">Education:</p></li>
+          <li>
+            <ul>
+              <li><a class="entryTitle" href="http://www.narragansett.k12.ri.us/nhs/">Narragansett High School</a></li>
+              <li><p class="entryDetail location">Narragansett, Rhode Island</p></li>
+              <li><p class="entryDetail">Diploma awarded in June 2015</p></li>
+              <li><p class="entryDetail">Salutatorian</p></li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><a class="entryTitle" href="http://rpi.edu/">Rensselaer Polytechnic Institute</a></li>
+              <li><p class="entryDetail location">Troy, New York</p></li>
+              <li><p class="entryDetail">Pursuing a B.S. in Information Technology and Web Science</p></li>
+              <li><p class="entryDetail">Cumulative GPA: 3.83/4.00</p></li>
+              <li><p class="entryDetail">Expected graduation: Spring 2019</p></li>
+            </ul>
+          </li>
         </ul>
-      </li>
-    </ul>
 
+        <ul class="section">
+          <li><p class="SecTitle">Work Experience:</p></li>
+          <li>
+            <ul>
+              <li><a class="entryTitle" href="http://www.thielsch.com/">Thielsch Engineering</a></li>
+              <li><p class="entryDetail location">Cranston, Rhode Island</p></li>
+              <li><p class="entryDetail">Summer Laboratory Assistant in CTS/Soil Mechanics Laboratory</p></li>
+              <li><p class="entryDetail">June 2014 - August 2016</p></li>
+              <li><p class="entryDetail">Prepared, tested, and collected data from soil samples for moisture
+                     content, gradation, modified compaction, and hydrometer analyses.</p></li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><a class="entryTitle" href="http://www.jonnycakecenter.org/">Jonnycake Center</a></li>
+              <li><p class="entryDetail location">Peace Dale, Rhode Island</p></li>
+              <li><p class="entryDetail">Teen Jonnycake food pantry volunteer</p></li>
+              <li><p class="entryDetail">September 2012 - September 2014</p></li>
+              <li><p class="entryDetail">Sorted, shelved, and distributed donations at emergency food pantry.
+                     Prepared and supervised festival events and booths.</p></li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><a class="entryTitle" href="https://www.facebook.com/Forest-Lakes-Preservation-Association-FLPA-121889201171780/">
+                    Forest Lakes Preservation Association</a></li>
+              <li><p class="entryDetail location">Saunderstown, Rhode Island</p></li>
+              <li><p class="entryDetail">FLPA member volunteer</p></li>
+              <li><p class="entryDetail">2010-2016</p></li>
+              <li><p class="entryDetail">Provided volunteer assistance in community duties including beach cleanups
+                      and dock maintenance.</p></li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="section">
+          <li><p class="SecTitle">Skills:</p></li>
+          <li>
+            <ul class="skills">
+              <li><p class="skillTitle">Familiar Operating Systems: </p>  <p>Windows, Android, iOS</p></li>
+              <li><p class="skillTitle">Web Design: </p>  <p>Experience with HTML, CSS, JavaScript, jQuery, AJAX</p></li>
+              <li><p class="skillTitle">Programming: </p>  <p>Experience with Python, C, C++</p></li>
+              <li><p class="skillTitle">Applications: </p>  <p>Microsoft Office, Google Chrome</p></li>
+              <li><p class="skillTitle">Digital Audio:</p>  <p>Image-Line FL Studio, Propellerhead Reason 5</p></li>
+              <li><p class="skillTitle">Music:</p>  <p>4 years experience alto saxophone</p></li>
+              <li><p class="skillTitle">Language: </p>  <p>3 years high school Spanish</p></li>
+              <li><p class="skillTitle">Soft Skills: </p>  <p>Strong work ethic, adaptability</p></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="/resources/bootstrap_menu/js/jquery.js"></script>
+    <script src="/resources/bootstrap_menu/js/bootstrap.min.js"></script>
+    <script src="/resources/script.js"></script>
   </body>
 </html>

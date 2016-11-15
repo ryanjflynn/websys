@@ -40,31 +40,31 @@
 
   <project>
     <name>Lab 7</name>
-    <location>\projects\labs\lab7</location>
+    <location>\projects\labs\lab7\lab7_readme.txt</location>
     <description>Building off of Quiz1 (site improvements)</description>
   </project>
 
   <project>
     <name>Lab 8</name>
-    <location>\projects\labs\lab8</location>
-    <description>Not yet completed</description>
+    <location>\projects\labs\lab8\websyslab8 _export.sql</location>
+    <description>SQL Database</description>
   </project>
 
   <project>
     <name>Lab 9</name>
-    <location>\projects\labs\lab9</location>
+    <location>\index.html</location>
     <description>Not yet completed</description>
   </project>
 
   <project>
     <name>Lab 10</name>
-    <location>\projects\labs\lab10</location>
+    <location>\index.html</location>
     <description>Not yet completed</description>
   </project>
 
   <project>
     <name>Homework 1</name>
-    <location>\projects\homeworks\homework1</location>
+    <location>\projects\homeworks\homework1\resume.html</location>
     <description>Building and styling an HMTL online Resume</description>
   </project>
 
