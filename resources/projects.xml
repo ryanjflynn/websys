@@ -40,7 +40,7 @@
 
   <project>
     <name>Lab 7</name>
-    <location>\projects\labs\lab7\lab7_readme.txt</location>
+    <location>https://github.com/ryanjflynn/websys</location>
     <description>Building off of Quiz1 (site improvements)</description>
   </project>
 
@@ -70,7 +70,7 @@
 
   <project>
     <name>Homework 2</name>
-    <location>\projects\homeworks\homework2</location>
+    <location>https://github.com/chrjguill/websys-hw2</location>
     <description>Creating a JavaScript Hex game with a group</description>
   </project>
 
