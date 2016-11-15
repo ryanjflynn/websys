@@ -4,13 +4,13 @@
 
   <project>
     <name>Lab 1</name>
-    <location>\projects\labs\lab1</location>
+    <location>\projects\labs\lab1\lab1.websys.pdf</location>
     <description>Creating virtual host and using XAMPP</description>
   </project>
 
   <project>
     <name>Lab 2</name>
-    <location>\projects\labs\lab2</location>
+    <location>\projects\labs\lab2\part3\ryanflynnlab2part3.html</location>
     <description>Applying CSS to HTML and XML documents</description>
   </project>
 
