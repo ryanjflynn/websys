@@ -151,49 +151,74 @@
 <html>
 <head>
 <title>Lab 6</title>
+<link href="/resources/bootstrap_menu/css/bootstrap.min.css" rel="stylesheet">
+<link href="/resources/bootstrap_menu/css/simple-sidebar.css" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-1.12.4.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" type="text/javascript"></script>
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/flick/jquery-ui.css">
 <link rel="stylesheet" href="lab6.css">
+
 </head>
+
 <body>
-<div class="whole">
-  <pre id="result">
-  <?php 
-    if (isset($op)) {
-      try {
-        echo $op->getEquation();
-      }
-      catch (Exception $e) { 
-        $err[] = $e->getMessage();
-      }
-    }
-      
-    foreach($err as $error) {
-        echo $error . "\n";
-    } 
-  ?>
-  </pre>
-  <form method="post" action="lab6.php">
-  <div class="inputText">
-    <input type="text" name="op1" id="name" value="" />
-    <input type="text" name="op2" id="name" value="" />
-  </div>
-    <br/>
-    <!-- Only one of these will be set with their respective value at a time -->
-    <div class="inputSubmit">
-    <input type="submit" name="add" value="Add" />  
-    <input type="submit" name="sub" value="Subtract" />  
-    <input type="submit" name="mult" value="Multiply" />  
-    <input type="submit" name="div" value="Divide" />  
-    <input type="submit" name="exp" value="Exponent" />
-    <input type="submit" name="fact" value="Factorial" />
-  </form>
-  </div>
+
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li><a href="/index.html">HOME</a></li>
+          <!--Menu Items fill in here-->
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!--Page content goes inside this DIV-->
+    <div id="page-content-wrapper">
+
+      <div class="whole">
+        <pre id="result">
+        <?php 
+          if (isset($op)) {
+            try {
+              echo $op->getEquation();
+            }
+            catch (Exception $e) { 
+              $err[] = $e->getMessage();
+            }
+          }
+            
+          foreach($err as $error) {
+              echo $error . "\n";
+          } 
+        ?>
+        </pre>
+        <form method="post" action="lab6.php">
+        <div class="inputText">
+          <input type="text" name="op1" id="name" value="" />
+          <input type="text" name="op2" id="name" value="" />
+        </div>
+          <br/>
+          <!-- Only one of these will be set with their respective value at a time -->
+          <div class="inputSubmit">
+          <input type="submit" name="add" value="Add" />  
+          <input type="submit" name="sub" value="Subtract" />  
+          <input type="submit" name="mult" value="Multiply" />  
+          <input type="submit" name="div" value="Divide" />  
+          <input type="submit" name="exp" value="Exponent" />
+          <input type="submit" name="fact" value="Factorial" />
+        </form>
+        </div>
+      </div>
+    </div>
   </div>
   <script type="text/javascript">
     $('input').button();
   </script>
+
+  <script src="/resources/bootstrap_menu/js/jquery.js"></script>
+  <script src="/resources/bootstrap_menu/js/bootstrap.min.js"></script>
+  <script src="/resources/script.js"></script>
 </body>
 </html>
 
